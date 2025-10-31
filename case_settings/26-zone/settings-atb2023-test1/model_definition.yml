@@ -241,7 +241,7 @@ generator_columns: [
             "regional_cost_multiplier",
             "cap_recovery_years",
             "wacc_real",
-            "ids",
+            # "ids",
             # "MISO_CleanPower",
             # "NY_CleanPower",
             # "PJM_CleanPower",
