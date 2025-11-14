@@ -2348,7 +2348,7 @@ try:
 except:
     gdf = gpd.read_file(
         # "/Users/gs5183/Documents/MIP_results_comparison/notebooks/conus_26z_latlon_simple.geojson"
-        "/Users/melek/Switch-USA-PG/MIP_results_comparison/notebooks/conus_26z_latlon_simple.geojson"
+        "/Users/melek/Documents/GitHub/Switch-USA-PG/MIP_results_comparison/notebooks/conus_26z_latlon_simple.geojson"
     )
 gdf = gdf.rename(columns={"model_region": "zone"})
 
